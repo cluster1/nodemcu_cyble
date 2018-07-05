@@ -131,10 +131,7 @@ void loop() {
 bool send_data(){
               String device_id     = String(config.device_id) ;
               String device_value  = String(CybleCounter) ;
-              String device_name   = "Cyble V02 2 wire" ;
-              
-             // String PostData = "{\"DEVICE_ID\": \""+device_id+"\",\"DEVICE_VALUE\":\""+device_value+"\", \"book\": \""+device_value+"\" }";
-
+              String device_name   = "Cyble V02 2 wire" ;              
               String PostData ="{\"DEVICE_ID\": \""+device_id+"\", \"DEVICE_VALUE\": \""+device_value+"\", \"DEVICE_NAME\": \""+device_name+"\" }";
               HTTPClient http;
               Serial.println("[HTTP] begin...");
