@@ -1,6 +1,6 @@
 # NodeMCU Itron Cyble 
-Aplikasi ini membaca hasil bacaan dari sensor Cyble Itron v2 2 wire version data yang terbaca ditampilkan diserial. 
-Device menggunakan NodeMCU ESP8266
+Aplikasi ini membaca hasil bacaan dari sensor Itron Cyble Sensor v2 2 wire version  [https://www.itron.com/eu/technology/product-services-catalog/products/2/4/4/cyble-sensor]. 
+Data yang terbaca ditampilkan diserial. Device menggunakan NodeMCU ESP8266
 
 Scrip ini menggunakan Arduino IDE, untuk menggunakan NodeMCU pada Arduino IDE, tutorial & library bisa dilihat di : 
 https://github.com/esp8266/Arduino 
