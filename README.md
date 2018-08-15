@@ -5,6 +5,8 @@ Data yang terbaca ditampilkan diserial. Device menggunakan NodeMCU ESP8266
 Scrip ditulis menggunakan Arduino IDE. Untuk menggunakan NodeMCU pada Arduino IDE, tutorial & library bisa dilihat di : 
 https://github.com/esp8266/Arduino 
 
+![Block Diagram](http://apps.noobwork.com/content/NodeMCU_CybleL1LCD.png)
+
 # Modul Note 
 
 - NodeMCU_cyblev1	: versi lite/simple, aplikasi hanya mengambil data dari Cyble dan ditampilkan ke serial (serial monitor)
